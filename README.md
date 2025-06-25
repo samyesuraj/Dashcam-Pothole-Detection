@@ -13,34 +13,13 @@ A real-time pothole detection system using dashcam video and GPS data. This proj
 
 ---
 
-## 📦 Project Structure
-
-Dashcam-Pothole-Detection/
-│
-├── server/
-│ ├── app.py # Flask server handling data & model
-│ ├── model/ # Pothole detection ML model
-│
-├── esp32/
-│ ├── ESP32_I2S_Camera.ino 
-│
-├── webapp/
-│ ├── index.html # Map and dashboard UI
-│ ├── camera.html # Live feed page
-│ └── style.css
-| └── script.js
-│
-└── README.md
-
-
-
 ## 📡 Hardware Used
 
 - ESP32
 - OV7670 Camera Module
 - GPS module - NEO 6M
 - Laptop/server for processing and visualization
--
+
 
 
 ## 🧠 Software Stack
@@ -77,6 +56,7 @@ Dashcam-Pothole-Detection/
 cd server
 pip install -r requirements.txt
 python app.py
+```
 
 ### 3. Web Dashboard
 
