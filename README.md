@@ -1,4 +1,4 @@
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Dashcam Pothole Detection 🚗🕳️
 
 A real-time pothole detection system using dashcam video and GPS data. This project leverages an ESP32-CAM module for capturing video, a machine learning model for detecting potholes, and a server-based web application to display detections on a live map.
@@ -80,7 +80,9 @@ Pull requests and ideas are welcome! Please open an issue first to discuss propo
 
 ## 📄 License
 
-MIT License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).  
+You are free to use, modify, and distribute this project for personal or commercial purposes, as long as proper attribution is given.
+
 
 ---
 
