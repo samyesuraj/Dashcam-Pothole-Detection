@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Feed - Pothole Detection</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="menu">
+                <button id="menu-btn">
+                    <span class="material-icons">menu</span>
+                </button>
+                <div id="menu-options">
+                    <a href="index.html">
+                        <span class="material-icons">home</span>
+                        <span>Home</span>
+                    </a>
+                    <a href="camera.html">
+                        <span class="material-icons">camera_alt</span>
+                        <span>Camera Feed</span>
+                    </a>
+                </div>
+            </div>
+            <h1>Live Camera Feed</h1>
+        </header>
+        <div class="camera-container">
+            <img id="camera-feed" src="http://192.168.95.66/camera?" onload="this.src = 'http://192.168.95.66/camera?' + Date.now();">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

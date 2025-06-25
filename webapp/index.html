@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pothole Detection System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="menu">
+                <button id="menu-btn">
+                    <span class="material-icons">menu</span>
+                </button>
+                <div id="menu-options">
+                    <a href="index.html">
+                        <span class="material-icons">home</span>
+                        <span>Home</span>
+                    </a>
+                    <a href="camera.html">
+                        <span class="material-icons">camera_alt</span>
+                        <span>Camera Feed</span>
+                    </a>
+                </div>
+            </div>
+            <h1>Pothole Detection System</h1>
+        </header>
+        <div id="map"></div>
+        <div id="legend">
+            <h3>Severity Levels</h3>
+            <div><span class="color-box" style="background:#FF3B30;"></span> High</div>
+            <div><span class="color-box" style="background:#FF9500;"></span> Medium</div>
+            <div><span class="color-box" style="background:#34C759;"></span> Low</div>
+        </div>
+    </div>
+
+    <script src="leaflet/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
