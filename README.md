@@ -91,7 +91,7 @@ MIT License
 
 ## ✨ Authors
 
-- [Sam Yesuraj] 
-- [Vasavlal Bhaskar]
-- [Sreyas M Sunil]
-- [Shan Shibu]
+- Sam Yesuraj
+- Vasavlal Bhaskar
+- Sreyas M Sunil
+- Shan Shibu
