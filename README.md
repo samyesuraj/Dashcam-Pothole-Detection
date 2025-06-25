@@ -3,6 +3,8 @@
 
 A real-time pothole detection system using dashcam video and GPS data. This project leverages an ESP32-CAM module for capturing video, a machine learning model for detecting potholes, and a server-based web application to display detections on a live map.
 
+---
+
 ## 🛠️ Features
 
 - 📷 Captures live road video via ESP32-CAM
@@ -11,7 +13,6 @@ A real-time pothole detection system using dashcam video and GPS data. This proj
 - 🗺️ Displays pothole locations and intensity levels on an interactive map
 - 📱 Web dashboard with real-time updates and camera feed
 
----
 
 ## 📡 Hardware Used
 
@@ -19,7 +20,6 @@ A real-time pothole detection system using dashcam video and GPS data. This proj
 - OV7670 Camera Module
 - GPS module - NEO 6M
 - Laptop/server for processing and visualization
-
 
 
 ## 🧠 Software Stack
@@ -30,7 +30,6 @@ A real-time pothole detection system using dashcam video and GPS data. This proj
 - JavaScript (Leaflet.js for mapping)
 - HTML/CSS
 
----
 
 ## 🚀 How It Works
 
@@ -41,7 +40,6 @@ A real-time pothole detection system using dashcam video and GPS data. This proj
 5. A **camera feed page** allows real-time monitoring.
 
 ---
-
 
 ## 🧪 Setup Instructions
 
@@ -72,13 +70,9 @@ python app.py
 - Speed-based pothole severity adjustment
 - Road quality analytics over time
 
----
-
 ## 🤝 Contributing
 
 Pull requests and ideas are welcome! Please open an issue first to discuss proposed changes.
-
----
 
 ## ✅ Acknowledgments
 
@@ -88,6 +82,7 @@ Pull requests and ideas are welcome! Please open an issue first to discuss propo
 
 MIT License
 
+---
 
 ## ✨ Authors
 
